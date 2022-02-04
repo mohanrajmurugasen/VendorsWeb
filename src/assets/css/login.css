@@ -1,0 +1,112 @@
+.login {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #eeeeee99;
+    padding-bottom: 75px;
+    padding-top: 40px;
+}
+.login .jumb {
+    max-width: 450px;
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.login .jumb .divider {
+    margin-bottom: 3px;
+}
+@media screen and (max-width: 1000px) {
+    .login .jumb {
+        max-width: 100%;
+    }
+}
+.login .jumb h2 {
+    padding-bottom: 20px;
+    font-size: 1.74901em;
+}
+.login .jumb button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.login .jumb .mary {
+    background-color: #3b5998;
+    border: transparent;
+}
+.login .jumb .mary:hover {
+    background-color: #23345a;
+}
+.login .jumb button:focus {
+    outline: transparent;
+}
+.login form .btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+.login form .btn-danger {
+    margin-top: 35px;
+    background-color: #0064f4;
+    border: transparent;
+}
+.login form .btn-danger:hover {
+    background-color: #094398;
+}
+.login form button:focus {
+    border: transparent;
+    outline: transparent;
+}
+.login form input {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.login form .btn-danger {
+    margin-top: 35px;
+}
+.login form label {
+    margin-top: 30px;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: .5em;
+}
+.login form select {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+}
+.login form .text-danger {
+    position: absolute;
+}
+.login form .checkbox-inline input {
+    height: 18px;
+}
+.login form .checkbox-inline {
+    margin-bottom: 20px;
+    color: #000000de;
+}
+.login p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.login p a {
+    text-decoration: transparent;
+}
+.login .hariz {
+    margin-bottom: 25px;
+    margin-top: 34px;
+}
+.login .jumb .SignForm-form-line i {
+    border-radius: 100%;
+    color: #9b9b9b;
+    border: 1px solid #e6e7e8;
+    padding: 10px 13px;
+    background-color: #fff;
+    position: relative;
+    top: 29px;
+}

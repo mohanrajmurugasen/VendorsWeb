@@ -1,0 +1,232 @@
+.vendorSignup {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #eeeeee99;
+    padding-bottom: 30px;
+}
+.vendorSignup .jumb {
+    max-width: 70%;
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.vendorSignup .jumb .divider {
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1000px) {
+    .vendorSignup .jumb {
+        max-width: 100%;
+    }
+}
+.vendorSignup .jumb h2 {
+    padding-bottom: 20px;
+    font-size: 1.74901em;
+}
+.vendorSignup .jumb button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.vendorSignup .jumb .mary {
+    background-color: #3b5998;
+    border: transparent;
+}
+.vendorSignup .jumb .mary:hover {
+    background-color: #23345a;
+}
+.vendorSignup .jumb button:focus {
+    outline: transparent;
+}
+.vendorSignup form .btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+.vendorSignup form .serch {
+    border: 1px solid #8080804f;
+}
+.vendorSignup form .serch option {
+    text-transform: capitalize;
+    text-align: left;
+    padding: 7px 10px;
+    background-color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.vendorSignup form .serch option:hover {
+    color: black;
+    background-color: #80808036;
+}
+.vendorSignup form .serch li {
+    text-transform: capitalize;
+    text-align: left;
+    padding: 7px 10px;
+    background-color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.vendorSignup form .serch li:hover {
+    color: black;
+    background-color: #80808036;
+}
+.vendorSignup form .serch1 {
+    background-color: #5f9ea045;
+    padding: 15px;
+    border-radius: 10px;
+}
+.vendorSignup form .serch1 li {
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #254243;
+    background-color: cadetblue;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 1px 8px;
+    cursor: pointer;
+}
+.vendorSignup form .btn-danger {
+    margin-top: 35px;
+    background-color: #0064f4;
+    border: transparent;
+}
+.vendorSignup form .btn-danger:hover {
+    background-color: #094398;
+}
+.vendorSignup form button:focus {
+    border: transparent;
+    outline: transparent;
+}
+.vendorSignup form input {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.vendorSignup form textarea {
+    font-size: 18px;
+} 
+.vendorSignup form .field {
+    margin-top: 10px;
+    float: right;
+    margin-bottom: 10px;
+}
+.vendorSignup form .one {
+    margin-right: 10px;
+    font-size: 18px;
+    background-color: #e42e2ee3;
+    margin-top: 65px;
+}
+.vendorSignup form .one:hover {
+    color: white;
+}
+.vendorSignup form .two {
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.vendorSignup form .two:hover {
+    color: white;
+}
+.vendorSignup form .remove {
+    color: white;
+    cursor: pointer;
+    text-align: end;
+    background-color: red;
+    max-width: 22px;
+    max-height: 18px;
+    border-radius: 100%;
+    padding: 0px 7px 24px;
+}
+.vendorSignup form label {
+    margin-top: 2em;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: .5em;
+}
+.vendorSignup form label span {
+    color: red;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.vendorSignup form .local {
+    font-size: 16px;
+    background-color: #1371f9e3;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+}
+.vendorSignup form select {
+    height: 50px;
+    border: 1px solid #a9a9a954;
+    border-radius: 6px;
+}
+.vendorSignup form .text-danger {
+    text-align: left;
+}
+.vendorSignup form .dangerous {
+    margin-left: 15px;
+}
+.vendorSignup form .checkbox-inline input {
+    height: 18px;
+}
+.vendorSignup form .checkbox-inline {
+    margin-bottom: 20px;
+    color: #000000de;
+}
+.vendorSignup form .checkbox-inline img {
+    height: 20px;
+}
+.vendorSignup p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.vendorSignup p a {
+    text-decoration: transparent;
+}
+.vendorSignup .jumb .SignForm-form-line i {
+    border-radius: 100%;
+    color: #9b9b9b;
+    border: 1px solid #e6e7e8;
+    padding: 10px 13px;
+    background-color: #fff;
+    position: relative;
+    top: 29px;
+} 
+.vendorSignup form .add {
+    padding-right: 0;
+}
+.vendorSignup form .add1 {
+    padding-left: 0;
+}
+.vendorSignup form .addition {
+    border-right: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #e6e7e8;
+    font-size: 15px;
+    padding: 4px;
+}
+@media screen and (max-width:407px) {
+    .vendorSignup form .addition {
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+/* .vendorSignup form .pads {
+    padding-left: 15px;
+    padding-right: 15px;
+} */

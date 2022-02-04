@@ -1,0 +1,68 @@
+.location {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    padding-bottom: 220px;
+}
+.location .text-center {
+    border: 1px solid #eee;
+    max-width: 700px;
+    padding: 8px;
+    margin: auto;
+    border-top: 3px solid #ed193a;
+}
+.location .one {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 30px;
+}
+.location .one h3 {
+    font-weight: 600;
+    margin-bottom: 0.75em;
+}
+.location .one input {
+    border: 1px solid #dedede;
+    padding: 13px 15px;
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.location .one input:focus {
+    outline: none;
+}
+.location .one button {
+    background-color: #ed193a;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.location .one button:focus {
+    outline: none;
+}
+.location .one ul li p {
+    margin-right: 0.25em;
+    color: #6a6a6a;
+}
+.location .one ul .las img {
+    width: 75px;
+}
+.location .one .local {
+    padding: 14px;
+    border: 1px solid #a9a9a957;
+    color: gray;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background-color: white;
+    cursor: pointer;
+}
+.location .one .local:hover {
+    color: white;
+    background-color: #2692ee;
+}

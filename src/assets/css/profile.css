@@ -1,0 +1,97 @@
+.profile {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+
+.css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+    margin-top: 79px !important;
+}
+.top {
+    display: flex;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top .avatar {
+    width: 50px;
+    height: 50px;
+}
+.top button {
+    font-size: 12px;
+    margin-left: 10px;
+    color: black;
+}
+.top button:hover {
+    color: red !important;
+}
+.css-10hburv-MuiTypography-root {
+    font-size: 18px !important;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 2.5rem !important;
+}
+.css-bshv44-MuiButtonBase-root-MuiListItem-root {
+    margin-bottom: 6px !important;
+}
+.css-bshv44-MuiButtonBase-root-MuiListItem-root:focus {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.css-1v5u2yv {
+    margin-top: 79px !important;
+    background-color: whitesmoke !important;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.request h4 {
+    color: #7c7777;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.request svg {
+    color: #7c7777;
+}
+.css-cveggr-MuiListItemIcon-root {
+    min-width: 45px !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+    position: initial !important;
+}
+.css-f9x9u3-MuiPaper-root-MuiAppBar-root {
+    position: absolute !important;
+    z-index: 0 !important;
+}
+
+.number {
+    margin: auto;
+}
+.number ul {
+    float: right;
+    margin-top: 65px;
+    list-style: none;
+}
+.number ul li {
+    float: left;
+}
+.number ul li a {
+    border: 1px solid #a9a9a94f;
+    padding: 8px 14px;
+    font-size: 17px;
+}
+.number ul li a:focus {
+    outline: none;
+}
+.vendor .paginationActive a {
+    background-color: #23527c;
+    color: white;
+}
+.number ul li a{
+    text-decoration: none;
+}
+.number ul li i {
+    font-size: 13px;
+    padding-left: 3px;
+}

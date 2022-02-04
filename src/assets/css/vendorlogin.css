@@ -1,0 +1,112 @@
+.vendorLogin {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #eeeeee99;
+    padding-bottom: 75px;
+    padding-top: 40px;
+}
+.vendorLogin .jumb {
+    max-width: 50%;
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.vendorLogin .jumb .divider {
+    margin-bottom: 3px;
+}
+@media screen and (max-width: 1000px) {
+    .vendorLogin .jumb {
+        max-width: 100%;
+    }
+}
+.vendorLogin .jumb h2 {
+    padding-bottom: 20px;
+    font-size: 1.74901em;
+}
+.vendorLogin .jumb button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.vendorLogin .jumb .mary {
+    background-color: #3b5998;
+    border: transparent;
+}
+.vendorLogin .jumb .mary:hover {
+    background-color: #23345a;
+}
+.vendorLogin .jumb button:focus {
+    outline: transparent;
+}
+.vendorLogin form .btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+.vendorLogin form .btn-danger {
+    margin-top: 35px;
+    background-color: #0064f4;
+    border: transparent;
+}
+.vendorLogin form .btn-danger:hover {
+    background-color: #094398;
+}
+.vendorLogin form button:focus {
+    border: transparent;
+    outline: transparent;
+}
+.vendorLogin form input {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.vendorLogin form .btn-danger {
+    margin-top: 35px;
+}
+.vendorLogin form label {
+    margin-top: 30px;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: .5em;
+}
+.vendorLogin form select {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+}
+.vendorLogin form .text-danger {
+    position: absolute;
+}
+.vendorLogin form .checkbox-inline input {
+    height: 18px;
+}
+.vendorLogin form .checkbox-inline {
+    margin-bottom: 20px;
+    color: #000000de;
+}
+.vendorLogin p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.vendorLogin p a {
+    text-decoration: transparent;
+}
+.vendorLogin .hariz {
+    margin-bottom: 25px;
+    margin-top: 34px;
+}
+.vendorLogin .jumb .SignForm-form-line i {
+    border-radius: 100%;
+    color: #9b9b9b;
+    border: 1px solid #e6e7e8;
+    padding: 10px 13px;
+    background-color: #fff;
+    position: relative;
+    top: 29px;
+}

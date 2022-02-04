@@ -1,0 +1,57 @@
+.blog {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+.blog img {
+    margin: auto;
+}
+.blog button {
+    background-color: #1ab75e;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    padding: 7px 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.blog2 {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+    padding: 50px;
+    text-align: center;
+}
+.blog2 div {
+    border: 2px solid #ff00008c;
+    padding: 25px;
+    border-radius: 6px;
+    max-width: 339px;
+    margin: auto;
+}
+.blog2 h2 {
+    color: red;
+}
+.blog2 p {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: gray;
+    letter-spacing: 1px;
+}
+.blog2 button {
+    border: none;
+    background-color: #0064f4;
+    color: white;
+    border-radius: 4px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.blog2 button:hover {
+    color: white;
+}
+.blog2 button:focus {
+    outline: none;
+    color: white;
+}

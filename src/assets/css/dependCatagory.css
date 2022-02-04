@@ -1,0 +1,137 @@
+.dependCatagory {
+    margin-top: 79px;
+    margin-bottom: 0px;
+    background-color: #f5f5f5;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.dependCatagory .top ul li p {
+    font-size: 19px;
+}
+.dependCatagory .top ul li i {
+    font-size: 20px;
+}
+.dependCatagory .top ul .lef {
+    float: left;
+    cursor: pointer;
+}
+.dependCatagory .containe {
+    border: 1px solid #a9a9a900;
+    padding-top: 15px;
+    border-top-color: #ed193a;
+    border-top-width: 3px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 5%);
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: auto;
+}
+.dependCatagory .containe .top {
+    border-bottom: 1px solid #a9a9a95c;
+    text-align: center;
+    padding-left: 30px;
+}
+.dependCatagory .containe .botm {
+    padding: 40px;
+}
+.dependCatagory .containe .botm .para {
+    color: #6a6a6a;
+    font-size: 14px;
+}
+.dependCatagory .containe .botm .hig {
+    font-weight: 600;
+    font-size: 24px;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #a9a9a959;
+    margin-bottom: 5px;
+}
+.dependCatagory .containe .botm .loop input[type=radio] {
+    width: 20px;
+    height: 20px;
+}
+.dependCatagory .containe .botm .loop input[type=text] {
+    border: 1px solid #a9a9a982;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+.dependCatagory .containe .botm .loop input[type=quantity] {
+    border: 1px solid #a9a9a982;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+.dependCatagory .containe .botm .loop input[type=checkbox] {
+    width: 18px;
+    height: 17px;
+}
+.dependCatagory .containe .botm .loop select {
+    height: 45px;
+}
+.dependCatagory .containe .botm .tit {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+.dependCatagory .containe .botm .loop label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.dependCatagory .containe .botm .loop {
+    border-bottom: 1px solid #a9a9a954;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.dependCatagory .containe .last {
+    text-align: end;
+    border-top: 1px solid #a9a9a952;
+    padding: 20px;
+}
+.dependCatagory .containe .last button {
+    padding: 0.75em 1.75em;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    background-color: #ed193a;
+}
+.dependCatagory .botm .date {
+    padding-top: 10px;
+}
+.dependCatagory .botm .date p {
+    font-size: 15px;
+    color: #6a6a6a;
+    padding-top: 15px;
+}
+.dependCatagory .botm .date .dat {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a9a9a99e;
+    border-radius: 4px;
+    font-size: 18px;
+    color: gray;
+}
+.dependCatagory .botm .date h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.dependCatagory .botm .date h4 {
+    color: #4a4a4a;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding-top: 7px;
+}

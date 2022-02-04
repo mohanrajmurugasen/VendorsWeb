@@ -1,0 +1,132 @@
+.signup {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #eeeeee99;
+    padding-bottom: 30px;
+}
+.signup .jumb {
+    max-width: 450px;
+    background-color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.signup .jumb .divider {
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1000px) {
+    .signup .jumb {
+        max-width: 100%;
+    }
+}
+.signup .jumb h2 {
+    padding-bottom: 20px;
+    font-size: 1.74901em;
+}
+.signup .jumb button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.signup .jumb .mary {
+    background-color: #3b5998;
+    border: transparent;
+}
+.signup .jumb .mary:hover {
+    background-color: #23345a;
+}
+.signup .jumb button:focus {
+    outline: transparent;
+}
+.signup form .btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+.signup form .btn-danger {
+    margin-top: 35px;
+    background-color: #0064f4;
+    border: transparent;
+}
+.signup form .btn-danger:hover {
+    background-color: #094398;
+}
+.signup form button:focus {
+    border: transparent;
+    outline: transparent;
+}
+.signup form input {
+    height: 50px;
+    border: 1px solid #9b9b9b;
+    border-radius: 4px;
+    font-size: 18px;
+}
+.signup form label {
+    margin-top: 2em;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: .5em;
+}
+.signup form select {
+    height: 50px;
+    border: 1px solid #a9a9a954;
+    border-radius: 6px;
+}
+.signup form .text-danger {
+    text-align: left;
+}
+.signup form .dangerous {
+    margin-left: 15px;
+}
+.signup form .checkbox-inline input {
+    height: 18px;
+}
+.signup form .checkbox-inline {
+    margin-bottom: 20px;
+    color: #000000de;
+}
+.signup form .checkbox-inline img {
+    height: 20px;
+}
+.signup p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.signup p a {
+    text-decoration: transparent;
+}
+.signup .jumb .SignForm-form-line i {
+    border-radius: 100%;
+    color: #9b9b9b;
+    border: 1px solid #e6e7e8;
+    padding: 10px 13px;
+    background-color: #fff;
+    position: relative;
+    top: 29px;
+} 
+.signup form .add {
+    padding-right: 0;
+}
+.signup form .add1 {
+    padding-left: 0;
+}
+.signup form .addition {
+    border-right: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #e6e7e8;
+}
+@media screen and (max-width:407px) {
+    .signup form .addition {
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+/* .signup form .pads {
+    padding-left: 15px;
+    padding-right: 15px;
+} */

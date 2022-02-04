@@ -1,0 +1,267 @@
+.question {
+  margin-top: 79px;
+  margin-bottom: 0;
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+.question .tops {
+  background-color: white;
+  padding: 30px;
+  width: 76%;
+  margin: auto;
+  border-top: 3px solid red;
+  margin-bottom: 50px;
+}
+.question .tops .flexs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.question .tops .flexs .arrow svg {
+  font-size: 25px;
+  cursor: pointer;
+}
+.question .tops .flexs .name {
+  margin: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.question .tops .page {
+  padding-top: 30px;
+  color: gray;
+  font-size: 15px;
+}
+.question .tops .description {
+  font-size: 27px;
+  font-weight: 600;
+  padding-top: 8px;
+}
+.question .tops .description2 {
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 8px;
+  color: #000000b0;
+  text-transform: capitalize;
+}
+.question .tops .radios {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.question .tops .radios .inr {
+  margin-top: 23px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.question .tops .radios .radio {
+  padding-bottom: 3px;
+  padding-top: 8px;
+}
+.question .tops .radios .radio label p {
+  margin-left: 12px;
+  font-size: 18px;
+}
+.question .tops .radios .radio label input {
+  width: 17px;
+  height: 17px;
+}
+.question .tops .check .checkbox {
+  padding-bottom: 3px;
+  padding-top: 8px;
+}
+.question .tops .check .checkbox label p {
+  margin-left: 12px;
+  font-size: 18px;
+}
+.question .tops .check .checkbox label input {
+  width: 17px;
+  height: 17px;
+}
+.question .tops .text .text2 {
+  margin-bottom: 20px;
+}
+.question .tops .text input {
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid darkgray;
+  border-radius: 4px;
+  padding: 14px;
+  text-transform: capitalize;
+}
+.question .tops .next {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.question .tops .next .estimate .one span {
+  color: gray;
+  font-size: 16px;
+}
+.question .tops .next .estimate .one {
+  font-size: large;
+}
+.question .tops .next .estimate .two {
+  font-size: large;
+  color: green;
+  margin-top: -8px;
+}
+.question .tops .next .last button {
+  font-size: 16px;
+  padding: 8px 27px;
+  margin-top: 5px;
+}
+.MuiFormControlLabel-root {
+  padding-left: 0 !important;
+}
+.question .tops .divid {
+  padding-top: 10px;
+}
+.question .date .MuiFormLabel-root {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000ab;
+}
+
+.question .date .MuiInputBase-root {
+  margin-top: 40px !important;
+  font-size: 15px;
+  color: #001a4fa6;
+}
+.question .date .MuiInputBase-root button svg {
+  font-size: 24px;
+  color: #001a4fa6;
+}
+
+.question .date {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.question .date .makeStyles-textField-8 {
+  margin: auto;
+}
+.question .summary .lis {
+  color: #79848a;
+  font-weight: 400;
+  font-size: 17px;
+  width: 115px;
+}
+.question .summary .lis2 {
+  color: #3e4040;
+  font-weight: 400;
+  font-size: 17px;
+}
+.question .summary .MuiListItemText-root {
+  flex: initial !important;
+}
+.question .summary .services {
+  font-size: 16px;
+  color: #0000008f;
+}
+.question .summary .services2 {
+  font-size: 16px;
+  color: #4a9ce1;
+}
+.question .summary .servicelinks {
+  text-decoration: none;
+  color: #4a9ce1;
+  font-size: 15px;
+}
+.question .summary .servicelinks2 {
+  font-size: 16px;
+}
+.question .summary .avatars {
+  width: 33px !important;
+  height: 33px !important;
+  background-color: #bdbdbda8;
+}
+.question .summary .avatars2 {
+  width: 25px !important;
+  height: 25px !important;
+  background-color: #bdbdbda8;
+}
+.question .summary .avatars2 p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.question .summary .padingItm {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.question .rightCol1 {
+  background-color: white;
+}
+.question .rightCol1 h4 {
+  font-weight: 400;
+}
+.question .rightCol1 a {
+  font-size: 16px;
+  color: #4a9ce1;
+  text-decoration: none;
+}
+.question .rightCol2 {
+  background-color: white;
+  padding: 26px;
+}
+.question .rightCol2 .estim {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.question .rightCol2 .estim .total {
+  font-size: 16px;
+  color: gray;
+}
+.question .rightCol2 .estim .amount {
+  font-size: 16px;
+  font-weight: bold;
+}
+.question .rightCol2 button {
+  font-size: 18px;
+  width: 100%;
+  text-transform: capitalize;
+  background-color: #ed193a;
+  color: white;
+}
+.question .rightCol2 .entires {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.question .lastCaption {
+  text-align: center;
+  padding-top: 20px;
+  color: #79848a;
+  width: 70%;
+  margin: auto;
+  font-weight: 500;
+  font-size: 14px;
+}
+.question .rightCol3 {
+  background-color: white;
+  padding: 26px;
+}
+.question .rightCol3 h4 {
+  color: gray;
+  padding-bottom: 8px;
+}
+.question .rightCol3 button {
+  font-size: 18px;
+  width: 100%;
+  text-transform: capitalize;
+  background-color: #e9860b;
+  color: white;
+}
+.question .another {
+  float: right;
+}
+@media screen and (max-width: 1000px) {
+  .question .another {
+    float: initial;
+  }
+}

@@ -1,0 +1,329 @@
+.requestvendor {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #f5f5f5;
+}
+.requestvendor .banner {
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 5%);
+}
+.requestvendor .banner .imgs {
+    background-image: url('../img/vendor-banner2.jpg');
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.requestvendor .banner .imgs ul {
+    float: right;
+    margin: 10px;
+}
+.requestvendor .banner .imgs ul button {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #f2f2f2 !important;
+    color: #4a4a4a !important;
+    border: none;
+    font-size: 16px;
+}
+.requestvendor .banner .imgs ul button i {
+    padding-right: 11px;
+    color: darkgray;
+}
+.requestvendor .banner .banns {
+    width: 136px;
+    height: 136px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-color: #fff;
+    border: 4px solid #fff;
+    border-radius: 100%;
+    margin: -4em 2em;
+}
+.requestvendor .banner .content h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    margin-top: 70px;
+}
+.requestvendor .banner .content {
+    padding-left: 30px;
+}
+.requestvendor .banner .content .list-inline {
+    margin-top: -6px;
+    margin-bottom: 4px;
+    color: #4a4a4a;
+    font-size: 16px;
+}
+.requestvendor .banner .content .list-inline span {
+    color: #11b958;
+    margin-left: 12px;
+}
+.requestvendor .banner .content .list-inline img {
+    position: absolute;
+    margin-top: -15px;
+}
+.requestvendor .banner .content .conlast {
+    font-size: 15px;
+    color: #99a2a9;
+    font-weight: 400;
+}
+.requestvendor .banner .one .righ {
+    float: right;
+    margin-top: 90px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 707px) {
+    .requestvendor .banner .one .righ {
+        float: initial;
+        margin-top: 20px;
+        padding-bottom: 0px;
+    }
+    .requestvendor .banner .one .righ li {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+    }
+    .requestvendor .banner .imgs ul button {
+        font-size: 13px;
+    }
+    .requestvendor .banbotm .one .nav-pills a {
+        padding: 20px 40px !important;
+    }
+}
+.requestvendor .banner .one .righ li {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A4A4A;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-left: 1px solid #E2E2E2;
+}
+.requestvendor .banner .one .righ .bod {
+    border-left: 1px solid transparent;
+}
+.requestvendor .banner .one .righ span {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.requestvendor .banner .one .righ li i {
+    content: "\f005";
+    color: #f5a623;
+    font-size: 17px;
+    padding-right: 3px;
+}
+.requestvendor .banbotm .one {
+    background-color: white;
+    padding-bottom: 1em;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 5%);
+    padding: 0;
+}
+.requestvendor .banbotm .one .nav-pills a {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 55px;
+    color: #000000c7;
+    text-decoration: none;
+}
+.nav-pills .col-lg-3 {
+    padding-top: 30px;
+}
+.nav-pills {
+    padding-bottom: 30px;
+}
+.nav-pills div a:focus {
+    background-color: transparent;
+    color: red !important;
+    border: transparent;
+    outline: none;
+    border-bottom: 2px solid red;
+    font-size: 17px;
+    font-weight: 500;
+}
+.requestvendor .banbotm .row {
+    margin: 0;
+}
+.requestvendor .banbotm .tab-content {
+    padding: 20px 15px;
+}
+.requestvendor .banbotm .tab-content .boxes li {
+    padding: 10px 15px;
+    border: 1px solid #dddddd;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    font-size: 14px;
+    color: #424242;
+    border-radius: 4px;
+}
+.requestvendor .banbotm .tab-content .boxes .more {
+    border: 1px solid transparent;
+}
+.requestvendor .banbotm .tab-content .rewq .meter {
+    height: 16px;
+    width: 96%;
+    background: #6DC7A1;
+    border-radius: 2px;
+    margin-top: 2px;
+    position: absolute;
+}
+.requestvendor .banbotm .tab-content .rewq .meters {
+    height: 16px;
+    width: 96%;
+    background: #EAEAEA;
+    border-radius: 2px;
+    margin-top: 2px;
+    position: absolute;
+}
+.requestvendor .banbotm .tab-content .rewq {
+    padding-top: 10px;
+    padding-bottom: 18%;
+}
+.requestvendor .banbotm .tab-content .rewq .list-inline {
+    margin-bottom: 5px;
+}
+.requestvendor .banbotm .tab-content .gam .list-inline i {
+    color: #f5a623;
+}
+.requestvendor .banbotm .tab-content .gam .zul {
+    color: #262626;
+    font-size: 16px;
+}
+.requestvendor .banbotm .tab-content .miss {
+    border-left: 1px solid darkgray;
+    padding-left: 17px;
+}
+.requestvendor .banbotm .tab-content .hariz {
+    padding-bottom: 20px;
+}
+.requestvendor .banbotm .tab-content .starts .fa-star {
+    color: #f5a623;
+    font-size: 15px;
+}
+.requestvendor .banbotm .two {
+    padding-right: 0;
+}
+.requestvendor .banbotm .two h3 {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 18px;
+}
+.requestvendor .banbotm .two p {
+    font-size: 16px;
+}
+.requestvendor .banbotm .two p i {
+    padding-right: 10px;
+    color: #11b958;
+}
+.requestvendor .banbotm .two .top {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 5%);
+    padding: 1px 20px;
+    margin-bottom: 15px;
+}
+.requestvendor .banbotm .two .top .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.requestvendor .banbotm .two .top .row .fa-thumbs-up {
+    font-size: 30px;
+    padding: 6px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 7%), 0 6px 20px 0 rgb(0 0 0 / 9%);
+    margin-bottom: 10px;
+    color: #0064f4;
+}
+.requestvendor .banbotm .two .top .list-inline button {
+    background-color: transparent;
+    border: none;
+}
+.requestvendor .banbotm .two .top .btn-block {
+    border: none;
+    background-color: #0064f4;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.requestvendor .banbotm .two .lasss img {
+    width: 90px;
+    height: 64px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.requestvendor .banbotm .two .lasss .list-inline {
+    padding-bottom: 3px;
+    padding-top: 10px;
+}
+.requestvendor .banbotm .two .lasss .list-inline .air {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 10px;
+}
+.requestvendor .banbotm .two .top .btn-block:focus {
+    outline: none;
+}
+.requestvendor .banbotm .two .top .btn-block i {
+    padding-left: 10px;
+}
+.requestvendor .banbotm .tab-content h3 {
+    margin-bottom: 0.5em;
+    font-weight: 600;
+    font-size: 18px;
+}
+.requestvendor .banbotm .tab-content p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.requestvendor .banbotm .tab-content .imgu img {
+    width: 100px;
+    height: 136px;
+}
+.requestvendor .banbotm .tab-content .imgu li {
+    padding-right: 35px;
+}
+.requestvendor .banbotm .tab-content .imgus img {
+    width: 110px;
+    height: 136px;
+}
+.requestvendor .banbotm .tab-content .imgus li {
+    padding-right: 7px;
+    padding-bottom: 7px;
+}
+.requestvendor .banbotm .tab-content .revs .rit {
+    float: right;
+}
+.requestvendor .banbotm .tab-content .revs .dropdown-menu {
+    width: 100%;
+}
+.requestvendor .banbotm .tab-content .revs .dropdown-menu li {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px 15px;
+    cursor: pointer;
+}
+.requestvendor .banbotm .tab-content .revs .dropdown-menu li:hover {
+    color: white;
+    background-color: #0064f4;
+}
+.requestvendor .banbotm .tab-content .show {
+    text-align: center;
+}
+.requestvendor .banbotm .tab-content .show h2 {
+    color: #2692ee;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.subservice {
+  margin-top: 79px;
+  margin-bottom: 0;
+  background-color: white;
+}
+.subservice .banner {
+  background-image: url("../img/housecl.jpeg");
+  height: 325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.subservice .banner .ban2 {
+  width: 100%;
+  height: 100%;
+  background-color: #00000059;
+}
+.subservice .cont {
+  margin-top: -8%;
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  max-width: 80%;
+}
+.subservice .cont .entire {
+  max-width: 70%;
+  margin: auto;
+}
+.subservice .cont .imgs {
+  text-align: center;
+  padding-top: 30px;
+}
+.subservice .cont .imgs img {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+}
+.subservice .cont h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.subservice .cont .bred {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.subservice .cont .subpara {
+  font-family: "Inter", Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.subservice .cards .MuiPaper-root {
+  margin: auto;
+  margin-bottom: 25px;
+}
+.subservice .cards .MuiCardContent-root {
+  height: 130px;
+  overflow: hidden;
+}

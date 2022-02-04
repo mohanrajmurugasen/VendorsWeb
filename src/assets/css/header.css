@@ -1,0 +1,135 @@
+.header .navbar {
+    padding: 9px;   
+    margin-bottom: 0;
+    border-bottom: 1px solid #a9a9a936;
+    background-color: white;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+.header .navbar-toggle {
+    background-color: #f5f6fa;
+    padding: 16px;
+    float: left;
+}
+.header .navbar-toggle .icon-bar {
+    background-color: #0d123ccf;
+    width: 17px;
+}
+.header .navbar .navbar-nav li a {
+    color: #0d123cd4;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.navbar-nav>li>.dropdown-menu {
+    width: 190%;
+    padding: 5px;
+}
+.header .navbar .navbar-nav li a:hover {
+    background-color: transparent;
+}
+.header .navbar .navbar-nav li a:focus {
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.header .navbar .navbar-nav li a:focus {
+    color: #0082f3;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #0d123ccf;
+}
+.dropdown-menu>li>a>i {
+    color: white;
+    background-color: red;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+/* .header .navbar .navbar-collapse {
+    overflow-y: initial;
+} */
+.dropdown-menu>li>a {
+    padding: 10px !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    font-weight: 600 !important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+    color: #0d123c;
+}
+.navbar-default .navbar-nav .open .dropdown-menu li a:hover {
+    background-color: #eceffa;
+}
+.navbar-default .navbar-nav .open .dropdown-menu {
+    width: 193%;
+    border: transparent;
+    padding: 7px;
+}
+.header .navbar .navbar-right li button {
+    background-color: white;
+    color: #0d123c;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #a9a9a938;
+    font-size: 16px;
+    /* padding-left: 19px;
+    padding-right: 19px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header .navbar .navbar-right li .sin:hover {
+    border: 1px solid #0064f4b5;
+}
+.header .navbar .navbar-right li button:focus {
+    outline: none;
+}
+.header .navbar .navbar-right li .danger {
+    background-color: #0064f4;
+    color: white;
+    border: transparent;
+}
+.header .navbar .navbar-right li .danger:hover {
+    background-color: #094398;
+}
+.header .navbar .navbar-right li .danger a {
+    color: white;
+}
+.header .navbar .navbar-right li {
+    padding-right: 8px;
+    float: left;
+}
+.header .navbar .navbar-right {
+    margin: auto;
+}
+.header .navbar .active {
+    color: red;
+} 
+@media screen and (max-width: 551px) {
+    .header .navbar .navbar-nav li a {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1114px) {
+    .header .navbar .navbar-nav li a {
+        padding: 20px 10px;
+    }
+    .header .navbar .navbar-right li button {
+        letter-spacing: 0px;
+    }
+}
+
+.css-137ul40-MuiButtonBase-root-MuiIconButton-root {
+    border: none !important;
+}
+.css-azeo8y-MuiAvatar-root {
+    font-size: 23px !important;
+    padding: 17px !important;
+}
+.expand svg {
+    color: #9d9b9b;
+}

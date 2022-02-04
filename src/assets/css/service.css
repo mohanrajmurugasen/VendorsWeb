@@ -1,0 +1,147 @@
+.service {
+    margin-top: 79px;
+    margin-bottom: 0;
+    background-color: #eeeeee99;
+    padding-bottom: 30px;
+}
+.service .jumb {
+    max-width: 450px;
+    background-color: white;
+    padding-top: 2px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 1000px) {
+    .service .jumb {
+        max-width: 100%;
+    }
+}
+.service .jumb h2 {
+    padding-bottom: 8px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service .jumb h2 a {
+    color: #000000ba;
+    text-decoration: none;
+}
+.service .jumb hr {
+    margin-bottom: 0px;
+}
+.service .jumb h2 i {
+    float: left;
+}
+.service .jumb button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.service .jumb .mary {
+    background-color: #3b5998;
+    border: transparent;
+}
+.service .jumb .mary:hover {
+    background-color: #23345a;
+}
+.service .jumb button:focus {
+    outline: transparent;
+}
+.service form .btn-danger a {
+    text-decoration: none;
+    color: white;
+}
+.service form .btn-danger {
+    margin-top: 35px;
+    background-color: #0064f4;
+    border: transparent;
+}
+.service form .btn-danger:hover {
+    background-color: #094398;
+}
+.service form button:focus {
+    border: transparent;
+    outline: transparent;
+}
+.service form input {
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.service form {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service form label {
+    margin-top: 1em;
+    float: left;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3c3d41;
+    margin-bottom: .25em;
+}
+.service form select {
+    height: 50px;
+    border: 1px solid #a9a9a954;
+    border-radius: 6px;
+}
+.service form .text-danger {
+    text-align: left;
+}
+.service form .dangerous {
+    margin-left: 15px;
+}
+.service form .checkbox-inline input {
+    height: 18px;
+}
+.service form .checkbox-inline {
+    margin-bottom: 20px;
+    color: #000000de;
+    font-size: 16px;
+    font-weight: 400;
+}
+.service form .checkbox-inline img {
+    height: 20px;
+}
+.service p {
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #3c3d41b5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service p a {
+    text-decoration: transparent;
+}
+.service .jumb .SignForm-form-line i {
+    border-radius: 100%;
+    color: #9b9b9b;
+    border: 1px solid #e6e7e8;
+    padding: 10px 13px;
+    background-color: #fff;
+    position: relative;
+    top: 29px;
+} 
+.service form .add {
+    padding-right: 0;
+}
+.service form .add1 {
+    padding-left: 0;
+}
+.service form .addition {
+    border-right: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+@media screen and (max-width:407px) {
+    .service form .addition {
+        padding: 2px !important;
+        font-size: 14px;
+    }
+}
+/* .service form .pads {
+    padding-left: 15px;
+    padding-right: 15px;
+} */

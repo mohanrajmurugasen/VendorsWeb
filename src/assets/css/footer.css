@@ -1,0 +1,150 @@
+.footer {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background-color: #001a4f;
+}
+.footer .one h1 {
+    color: white;
+    font-family: Gt super text, sans-serif;
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 500;
+}
+.footer .one form {
+    margin: 35px
+}
+.footer .one form input {
+    background-color: hsla(0, 0%, 100%, 0.05);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+    width: 340px;
+    height: 45px;
+}
+.footer .one form button {
+    background-color: #0064f4;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9px 20px 12px 20px;
+}
+.footer .one form button:hover {
+    background-color: #094398;
+}
+.footer .one form button:focus {
+    outline: none;
+}
+.footer .one {
+    padding-bottom: 70px;
+}
+.footer hr {
+    border-top: 1px solid #eeeeee38;
+}
+.footer .two p {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+.footer .two .pad {
+    padding: 40px 0px 35px 9px;
+}
+.footer .two .con {
+    padding: 10px 0px 0px 0px;
+}
+.footer .two .con a {
+    color: #bbc0cc6e;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+.footer .two .con a:hover {
+    color: white !important;
+}
+.footer .two {
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+.footer .two .con a span {
+    background-color: #525252;
+    padding: 0px 6px 1px 6px;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.footer .two .con li {
+    padding-bottom: 15px;
+}
+.footer .two .pad .media li a i {
+    color: white;
+    font-size: 17px;
+    padding: 11px 14px;
+}
+.footer .two .pad .media li a i:hover {
+    background-color: #a7acb56b;
+    padding: 11px 14px;
+    border-radius: 32px;
+    border: transparent;
+}
+.footer .three p {
+    color: #bbc0cc6e;
+    font-weight: 500;
+    font-size: 15px;
+}
+.footer .four ul li a {
+    color: #bbc0cc6e;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+.footer .four ul li a:hover {
+    color: white;
+}
+.footer .four ul li {
+    padding-right: 25px;
+}
+.footer .four ul {
+    float: right;
+}
+@media screen and (max-width: 551px) {
+    .footer .one form input {
+        width : 100%;
+    }
+    .footer .one form {
+        margin: 0;
+    }
+    .footer .three {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .footer .four {
+        text-align: center;
+    }
+    .footer .four ul {
+        float: initial;
+    }
+    .footer .one h1 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer .two .pad {
+        text-align: center;
+    }
+    .footer .two img {
+        margin: auto;
+    }
+    .footer .two .row {
+        margin: auto;
+    }
+    .footer {
+        padding-top: 0;
+    }
+    .footer .one {
+        display: none;
+    }
+    .footer hr {
+        display: none;
+    }
+}
