@@ -39,8 +39,6 @@ export default function Question() {
   const { id, location, nam, quote, quest, amount } = useParams();
   const history = useHistory();
 
-  const [inr, setinr] = useState(amount);
-
   const [button, setbutton] = useState("Next");
   const [length, setLength] = useState();
   const [pageOf, setpageOf] = useState(0);
@@ -54,8 +52,9 @@ export default function Question() {
   const [check, setcheck] = useState([]);
   const [checkId, setcheckId] = useState("");
   const [qarr, setQarr] = useState([]);
-  const [selectedDate, setSelectedDate] = useState(new Date());
-  const [selectedDate2, setSelectedDate2] = useState(new Date());
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [selectedDate2, setSelectedDate2] = useState(null);
+  const [count, setcount] = useState(0);
 
   const handleDateChange = (date) => {
     setSelectedDate(date.target.value);
@@ -73,6 +72,7 @@ export default function Question() {
       .then((res) => {
         setLength(res.data.response.data.length);
         setdata(res.data.response.data[pageOf]);
+        setcount(res.data.response.data[pageOf].question.length);
       })
       .catch((err) => console.error(err.message));
   }, [pageOf, id]);
@@ -140,15 +140,9 @@ export default function Question() {
     return item.value !== "" && item.inputId !== "";
   });
 
-  const submit = (x) => {
-    setQarr((qarr) => [
-      ...qarr,
-      {
-        pageId: pageOf + 1,
-        questionList: newArr,
-      },
-    ]);
+  console.log(qarr);
 
+  const submit = (x) => {
     if (button === "Submit") {
       if (localStorage.getItem("token") !== null) {
         authAxios
@@ -160,7 +154,7 @@ export default function Question() {
               requestToDate: selectedDate2,
               questionPage: qarr,
               enquireTYpe: x,
-              serviceAmount: inr,
+              serviceAmount: amount,
             },
           })
           .then((res) => {
@@ -178,6 +172,13 @@ export default function Question() {
         history.push("/login");
       }
     } else if (pageOf < length - 1) {
+      setQarr((qarr) => [
+        ...qarr,
+        {
+          pageId: pageOf + 1,
+          questionList: newArr,
+        },
+      ]);
       setpageOf(pageOf + 1);
       setradio("");
       setradioId("");
@@ -194,6 +195,13 @@ export default function Question() {
       settext("");
       settextId("");
     } else {
+      setQarr((qarr) => [
+        ...qarr,
+        {
+          pageId: pageOf + 1,
+          questionList: newArr,
+        },
+      ]);
       setlast(length + 1);
       setradio("");
       setradioId("");
@@ -247,6 +255,7 @@ export default function Question() {
                                       value={res.optionValue}
                                       id={itm.inputId}
                                       onChange={handleChange}
+                                      checked={radio === "" ? false : true}
                                     />
                                     <p>{res.optionValue}</p>
                                   </label>
@@ -297,7 +306,7 @@ export default function Question() {
                         id="datetime-local"
                         label="From Date"
                         type="datetime-local"
-                        defaultValue="2017-05-24T10:30"
+                        defaultValue={selectedDate}
                         className={classes.textField}
                         InputLabelProps={{
                           shrink: true,
@@ -311,7 +320,7 @@ export default function Question() {
                         id="datetime-local"
                         label="To Date"
                         type="datetime-local"
-                        defaultValue="2017-05-24T10:30"
+                        defaultValue={selectedDate2}
                         className={classes.textField}
                         InputLabelProps={{
                           shrink: true,
@@ -332,13 +341,22 @@ export default function Question() {
                   <p className="one">
                     Estimate . <span>Session</span>
                   </p>
-                  <p className="two">INR {inr}</p>
+                  <p className="two">INR {amount}</p>
                 </div>
                 <div className="last">
                   <Button
                     variant="contained"
                     color="secondary"
                     onClick={submit}
+                    disabled={
+                      last === null
+                        ? newArr.length === count
+                          ? false
+                          : true
+                        : selectedDate !== null && selectedDate2 !== null
+                        ? false
+                        : true
+                    }
                   >
                     {button}
                   </Button>

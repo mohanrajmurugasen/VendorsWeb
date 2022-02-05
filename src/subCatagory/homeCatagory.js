@@ -44,7 +44,7 @@ function HomeCatagory() {
       });
     dispatch(selectedProduct(response.data.response.data[0]));
     setgetSubservice(response.data.response.data);
-    console.log(response.data.response.data);
+    // console.log(response.data.response.data);
   };
 
   roleRefs.current = fetchDatas;
